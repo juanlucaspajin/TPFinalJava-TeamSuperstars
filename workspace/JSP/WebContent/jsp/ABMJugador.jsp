@@ -31,14 +31,15 @@
 		}
 	%>>
 	<label>Posicion</label>
-	<select>
-		<option value="">-Seleccione una posicion-</option>
+	<select name="posicion">
+		<option value=""></option>
 		<option value="arquero">Arquero</option>
 		<option value="defensor">Defensor</option>
 		<option value="mediocampista">Mediocampista</option>
 		<option value="delantero">Delantero</option>
 	</select>
-	
+	<label>Equipo</label>
+	<!-- TODAVIA NO IMPLEMENTADO: aca traer de la BD los equipos cargados para mostrarlos en un dropdown -->
 	<div class="acciones">
 		<button name="agregar" type="submit">Agregar</button>
 		<button name="modificar" type="submit">Modificar</button>
